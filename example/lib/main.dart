@@ -1,3 +1,4 @@
+import 'package:example/music_app/music_app.dart';
 import 'package:flutter/material.dart';
 
 import 'basic/basic.dart';
@@ -17,11 +18,11 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       theme: AppTheme.lightThemeData,
       darkTheme: AppTheme.darkThemeData,
-      title: 'WeSlide Demo',
+      title: 'Test swipe',
       debugShowCheckedModeBanner: false,
       // home: MusicApp(),
       //home: StoreApp(),
-      home: Basic(),
+      home: Basic()/*MusicApp()*/,
     );
   }
 }
